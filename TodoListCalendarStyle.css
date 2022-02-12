@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex; /*이 값을 주지 않으면 처음과 똑같음*/
+    justify-content: center; /*이 값을 주지 않으면 왼쪽으로 쏠림*/
+    align-items: center; /*이 값을 주지 않으면 가운데 위쪽으로 쏠림*/
+    min-height: 100vh; /*이 값을 주지 않으면 가운데 위쪽으로 쏠림, vh는 viewport height의 약자 height가 100vh면 viewport 높이의 100%이고(parent 값에 의존X), height가 100%이면 parent element 높이의 100%*/ 
+}
+
+.calendar {
+    position:relative; 
+    width:300px;
+    height: 320px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+}
+
+.upper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #042404;
+}
+
+.lower { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 230px;
+    font-size: 16px;
+}
+
+#month {
+    font-size: 50px;
+    font-weight: 900;
+    color:#FFFFFF
+}
+
+#date { 
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 1;
+    color:#333333;
+}

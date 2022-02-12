@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyToDo</title>
-    <link rel="TodoList_design.css" rel="stylesheet" type="type/css">
+    <link rel="stylesheet" href="TodoList_design.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <!--<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">-->
+
 </head>
 <body>
     <h1 align="center">MyToDo⭐</h1>
     <h3 align="center">Write your Today's TodoList in MyToDo !</h3>
+    <p align="center">Today is <script src="TodoList_event.js"></script></p>
+    
+    <br>
     <table border="1" align="center">
         <th>Today's TodoList</th>
         <th>check</th>
@@ -161,7 +165,9 @@
     <br> 
     <a href="TodoList_Calendar.html" target="_blank">
         <img src="calendar2.png" alt="calendar"></a>
-    <h2 align="center">⬆ Go to Calendar Page!</h2>
+    <!--<h2 align="center">⬆ Go to Today's Calendar Page!</h2>-->
+    <a href="TodoList_Calendar2.html" target="_blank"></a>
+    <button type="button" id="monthBtn" onClick="location.href='TodoList_Calendar2.html'">Month Calendar</button>
 
 </body>
 </html>
