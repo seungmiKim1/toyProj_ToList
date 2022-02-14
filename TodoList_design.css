@@ -12,14 +12,14 @@
     
 }
 
-#btn1 { 
+#add1 { 
    position: fixed;
    top:500px;
    right: 850px;
     background:skyblue;
 }
 
-#btn2 { 
+#delete { 
     position:fixed;
     top:500px;
     right: 780px;

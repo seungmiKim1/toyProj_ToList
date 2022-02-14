@@ -16,7 +16,7 @@
     <p align="center">Today is <script src="TodoList_event.js"></script></p>
     
     <br>
-    <table border="1" align="center">
+    <table border="1" align="center" id="todoList">
         <th>Today's TodoList</th>
         <th>check</th>
         <th>delete</th>
@@ -154,14 +154,17 @@
                 </select>
             </td>
             <td> 
-                <input type="checkbox" id="clear" name="number" value="1">
+                <input type="checkbox" id="clear1" name="chk[]" value="1">
+              
+
             </td>
         </tr>
 
     </table>
 
-    <input type="button" value="add" id="btn1">
-    <input type="button" value="delete" id="btn2"><br>
+    <button onclick="add_row()" id="add1">add</button>
+    <button type="button" id="delete">delete</button>
+
     <br> 
     <a href="TodoList_Calendar.html" target="_blank">
         <img src="calendar2.png" alt="calendar"></a>
