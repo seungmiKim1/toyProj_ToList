@@ -15,17 +15,10 @@
 #add1 { 
    position: fixed;
    top:500px;
-   right: 850px;
+   right: 780px;
     background:skyblue;
 }
 
-#delete { 
-    position:fixed;
-    top:500px;
-    right: 780px;
-    position:right;
-    background:red;
-}
 
 img { 
     position:fixed;

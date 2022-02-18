@@ -10,12 +10,3 @@ function add_row() {
     
 }
 
-function row_delete() { 
-    var my_row = document.getElementById('todoList'); 
-    var row = todoList.deleteRow(todoList.rows.length);
-    var cell1=row.deleteCell(0);
-    var cell2=row.deleteCell(1);
-    var cell3=row.deleteCell(2);
-    
-}
-
